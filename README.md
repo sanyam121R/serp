@@ -1,7 +1,6 @@
 # SERP - Search Engine Results Page
 
 Building a search engine like Google, Brave, Bing, etc.
-
 Practical Advanced Learning for:
 - Node.js
 - NestJS
@@ -12,6 +11,15 @@ Practical Advanced Learning for:
 - Next.js
 - Advanced Data Structures
 - Advanced Algorithms
+
+## Crawling & Scraping Concepts
+
+* **URL Discovery & Frontiers**: How a crawler manages a queue of URLs to visit next (Breadth-First Search vs. Depth-First Search).
+* **Deduplication**: Using hash sets or Bloom filters to avoid visiting the same URL multiple times.
+* **Politeness & Rules**: Parsing and respecting robots.txt files and setting rate limits or download delays so you do not overload target servers.
+* **Handling JavaScript & Headless Browsers**: Managing dynamic sites using tools like Playwright or Puppeteer when plain HTTP requests return empty content.
+* **Anti-Bot Bypassing**: Managing IP rotation, rate limiting, and user-agent headers safely and ethically.
+
 
 ### Steps system must follow
 - I need to create a web crawler to discover the data on the Internet
